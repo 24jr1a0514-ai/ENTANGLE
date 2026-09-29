@@ -1,0 +1,1019 @@
+CHAPTER 1 — INTRODUCTION TO QUANTUM COMPUTING
+
+1. What is computation?
+2. What is a computer?
+3. Classical computing
+4. Classical bits
+5. Classical logic
+6. Limitations of classical computing
+7. What is quantum computing?
+8. Why quantum computing?
+9. Quantum bits
+10. Quantum states
+11. Quantum superposition
+12. Quantum entanglement
+13. Quantum interference
+14. Quantum measurement
+15. Classical vs quantum computing
+16. Quantum advantage
+17. Quantum speedup
+18. Quantum supremacy
+19. Applications of quantum computing
+20. Limitations of quantum computing
+21. Quantum computing terminology
+22. Quantum computing ecosystem
+
+
+CHAPTER 2 — CLASSICAL COMPUTING FOUNDATIONS
+
+1. Binary number system
+2. Bits and bytes
+3. Boolean algebra
+4. Boolean functions
+5. Logic gates
+6. AND, OR, NOT
+7. NAND and NOR
+8. XOR and XNOR
+9. Digital circuits
+10. Combinational circuits
+11. Sequential circuits
+12. Registers
+13. Memory
+14. CPU fundamentals
+15. Classical algorithms
+16. Deterministic computation
+17. Probabilistic computation
+18. Reversible computation
+19. Reversible logic
+20. Reversible gates
+
+
+CHAPTER 3 — MATHEMATICAL FOUNDATIONS
+
+1. Sets and functions
+2. Scalars
+3. Real numbers
+4. Complex numbers
+5. Complex arithmetic
+6. Complex conjugates
+7. Modulus
+8. Polar representation
+9. Euler's formula
+10. Exponential representation
+11. Vectors
+12. Vector spaces
+13. Subspaces
+14. Linear combinations
+15. Linear independence
+16. Basis
+17. Dimension
+18. Inner products
+19. Norms
+20. Orthogonality
+21. Orthonormality
+
+
+CHAPTER 4 — LINEAR ALGEBRA
+
+1. Matrices
+2. Matrix notation
+3. Matrix addition
+4. Matrix multiplication
+5. Matrix transpose
+6. Conjugate transpose
+7. Identity matrix
+8. Inverse matrix
+9. Determinants
+10. Unitary matrices
+11. Hermitian matrices
+12. Orthogonal matrices
+13. Eigenvalues
+14. Eigenvectors
+15. Eigenspaces
+16. Diagonalization
+17. Spectral decomposition
+18. Projection operators
+19. Positive semidefinite matrices
+20. Tensor products
+21. Kronecker products
+
+
+CHAPTER 5 — PROBABILITY AND STATISTICS
+
+1. Basic probability
+2. Sample spaces
+3. Events
+4. Conditional probability
+5. Bayes' theorem
+6. Random variables
+7. Discrete probability distributions
+8. Continuous probability distributions
+9. Probability mass functions
+10. Probability density functions
+11. Expected value
+12. Variance
+13. Standard deviation
+14. Joint probability
+15. Marginal probability
+16. Correlation
+17. Statistical independence
+18. Probability amplitudes
+19. Amplitudes vs probabilities
+
+
+CHAPTER 6 — QUANTUM MECHANICS FUNDAMENTALS
+
+1. Classical physics vs quantum physics
+2. Wave-particle duality
+3. Quantum states
+4. State preparation
+5. Superposition
+6. Probability amplitudes
+7. Observables
+8. Quantum measurements
+9. Quantization
+10. Schrödinger equation
+11. Time evolution
+12. Hamiltonian
+13. Energy eigenstates
+14. Eigenvalue equation
+15. Unitary evolution
+16. Quantum mechanical postulates
+17. Measurement postulate
+
+
+CHAPTER 7 — HILBERT SPACES AND DIRAC NOTATION
+
+1. Hilbert spaces
+2. State vectors
+3. Ket notation
+4. Bra notation
+5. Bra-ket notation
+6. Inner products
+7. Outer products
+8. Orthonormal basis
+9. Completeness relation
+10. State normalization
+11. Change of basis
+12. Computational basis
+13. State-vector representation
+14. Global phase
+15. Relative phase
+16. Pure states
+17. State-space geometry
+
+
+CHAPTER 8 — QUBITS
+
+1. Classical bit vs qubit
+2. Definition of a qubit
+3. Computational basis states
+4. |0⟩ state
+5. |1⟩ state
+6. General qubit state
+7. Superposition
+8. Probability amplitudes
+9. Normalization
+10. Relative phase
+11. Bloch sphere
+12. Bloch-vector representation
+13. Single-qubit state geometry
+14. Qubit initialization
+15. Qubit measurement
+16. Physical realization of qubits
+
+
+CHAPTER 9 — QUANTUM MEASUREMENT
+
+1. Measurement concepts
+2. Measurement postulate
+3. Computational-basis measurement
+4. Measurement probabilities
+5. State collapse
+6. Projective measurement
+7. Measurement operators
+8. Projection operators
+9. Observables
+10. Hermitian operators
+11. Expectation values
+12. Measurement in arbitrary bases
+13. X-basis measurement
+14. Y-basis measurement
+15. Z-basis measurement
+16. Generalized measurements
+17. POVMs
+18. Weak measurements
+19. Measurement disturbance
+
+
+CHAPTER 10 — QUANTUM DYNAMICS AND SPIN
+
+1. Quantum time evolution
+2. Schrödinger equation
+3. Time-evolution operator
+4. Hamiltonian evolution
+5. Time-independent evolution
+6. Time-dependent evolution
+7. Spin-1/2 systems
+8. Spin states
+9. Spin operators
+10. Pauli operators
+11. Stern-Gerlach experiment
+12. Spin measurement
+13. Quantum rotations
+14. Angular momentum
+15. Quantum harmonic oscillator
+16. Creation operators
+17. Annihilation operators
+18. Number states
+19. Ground state
+20. Coherent states
+
+
+CHAPTER 11 — SINGLE-QUBIT QUANTUM GATES
+
+1. Quantum gates
+2. Identity gate
+3. Pauli-X gate
+4. Pauli-Y gate
+5. Pauli-Z gate
+6. Hadamard gate
+7. Phase gate
+8. S gate
+9. S† gate
+10. T gate
+11. T† gate
+12. Rx gate
+13. Ry gate
+14. Rz gate
+15. U gates
+16. Phase rotations
+17. Unitary transformations
+18. Gate matrices
+19. Geometric interpretation of gates
+
+
+CHAPTER 12 — MULTI-QUBIT QUANTUM SYSTEMS
+
+1. Composite quantum systems
+2. Two-qubit systems
+3. Three-qubit systems
+4. Multi-qubit state vectors
+5. Tensor-product states
+6. Product states
+7. Separable states
+8. Entangled states
+9. Bell states
+10. GHZ states
+11. W states
+12. Computational basis for multiple qubits
+13. Multi-qubit probability amplitudes
+
+
+CHAPTER 13 — MULTI-QUBIT QUANTUM GATES
+
+1. Controlled operations
+2. Controlled-X
+3. CNOT gate
+4. Controlled-Z
+5. Controlled phase gates
+6. SWAP gate
+7. Controlled-SWAP
+8. Fredkin gate
+9. Toffoli gate
+10. Controlled rotations
+11. Multi-controlled gates
+12. Gate decomposition
+13. Multi-qubit gate matrices
+14. Reversible quantum operations
+
+
+CHAPTER 14 — QUANTUM CIRCUITS
+
+1. Quantum circuit notation
+2. Quantum wires
+3. Qubit registers
+4. Classical registers
+5. Gate placement
+6. Circuit execution
+7. Circuit depth
+8. Circuit width
+9. Circuit composition
+10. Circuit equivalence
+11. Gate cancellation
+12. Gate commutation
+13. Circuit identities
+14. Circuit decomposition
+15. Circuit optimization
+16. Quantum circuit measurement
+
+
+CHAPTER 15 — UNIVERSAL QUANTUM COMPUTATION
+
+1. Universal quantum computation
+2. Universal gate sets
+3. Single-qubit gate universality
+4. CNOT universality
+5. Clifford gates
+6. Clifford group
+7. Non-Clifford gates
+8. Clifford+T
+9. Gate synthesis
+10. Approximation of unitaries
+11. Solovay-Kitaev theorem
+12. Quantum circuit universality
+13. Reversible computation and quantum computation
+
+
+CHAPTER 16 — QUANTUM ENTANGLEMENT
+
+1. Definition of entanglement
+2. Product states
+3. Entangled states
+4. Bell states
+5. EPR pair
+6. EPR paradox
+7. Quantum nonlocality
+8. Bell's theorem
+9. Bell inequalities
+10. Bell tests
+11. Schmidt decomposition
+12. Schmidt rank
+13. Entanglement entropy
+14. Bipartite entanglement
+15. Multipartite entanglement
+16. GHZ entanglement
+17. W-state entanglement
+18. Monogamy of entanglement
+19. Entanglement witnesses
+20. Entanglement distillation
+
+
+CHAPTER 17 — DENSITY MATRICES
+
+1. Density operators
+2. Pure-state density matrix
+3. Mixed-state density matrix
+4. Density matrix properties
+5. Trace
+6. Hermiticity
+7. Positivity
+8. Normalization
+9. Density matrix evolution
+10. Unitary evolution of density matrices
+11. Measurement using density matrices
+12. Ensemble interpretation
+13. Reduced states
+14. Composite systems
+15. Partial trace
+16. Bloch representation of density matrices
+
+
+CHAPTER 18 — QUANTUM CHANNELS AND NOISE
+
+1. Quantum channels
+2. Quantum operations
+3. Completely positive maps
+4. Trace-preserving maps
+5. Kraus operators
+6. Operator-sum representation
+7. Bit-flip channel
+8. Phase-flip channel
+9. Bit-phase-flip channel
+10. Depolarizing channel
+11. Amplitude damping
+12. Phase damping
+13. Erasure channel
+14. Quantum noise models
+15. Channel composition
+16. Quantum channel evolution
+
+
+CHAPTER 19 — QUANTUM INFORMATION THEORY
+
+1. Classical information
+2. Quantum information
+3. Information encoding
+4. Shannon entropy
+5. Von Neumann entropy
+6. Relative entropy
+7. Mutual information
+8. Conditional entropy
+9. Quantum mutual information
+10. Quantum conditional entropy
+11. Entropy inequalities
+12. Information transmission
+13. Quantum communication capacity
+14. Quantum data processing
+15. Quantum information principles
+
+
+CHAPTER 20 — FUNDAMENTAL QUANTUM INFORMATION PRINCIPLES
+
+1. No-cloning theorem
+2. No-deleting theorem
+3. No-broadcasting theorem
+4. No-signaling principle
+5. Quantum indistinguishability
+6. Measurement disturbance
+7. Quantum state discrimination
+8. Perfect vs imperfect discrimination
+9. Quantum state fidelity
+10. Trace distance
+11. Quantum relative entropy
+12. Quantum information limitations
+
+
+CHAPTER 21 — QUANTUM ALGORITHM FUNDAMENTALS
+
+1. Classical algorithms vs quantum algorithms
+2. Quantum algorithm structure
+3. Quantum parallelism
+4. Quantum interference
+5. Oracle model
+6. Query complexity
+7. Quantum query model
+8. Quantum speedup
+9. Quantum advantage
+10. Quantum algorithm analysis
+11. Quantum circuit complexity
+12. Classical post-processing
+13. Measurement and output
+
+
+CHAPTER 22 — FOUNDATIONAL QUANTUM ALGORITHMS
+
+1. Deutsch algorithm
+2. Deutsch-Jozsa algorithm
+3. Bernstein-Vazirani algorithm
+4. Simon's algorithm
+5. Oracle construction
+6. Oracle-based quantum algorithms
+7. Quantum interference in algorithms
+8. Algorithm circuits
+9. Measurement
+10. Classical post-processing
+11. Complexity analysis
+12. Exponential speedup
+
+
+CHAPTER 23 — QUANTUM FOURIER TRANSFORM
+
+1. Classical Fourier transform
+2. Discrete Fourier transform
+3. Quantum Fourier transform
+4. QFT mathematical definition
+5. QFT circuit
+6. Hadamard operations
+7. Controlled phase rotations
+8. QFT implementation
+9. Inverse QFT
+10. Approximate QFT
+11. QFT complexity
+12. Applications of QFT
+
+
+CHAPTER 24 — QUANTUM PHASE ESTIMATION
+
+1. Eigenvalue estimation
+2. Eigenphase
+3. Phase estimation problem
+4. Controlled-unitary operations
+5. Quantum phase estimation circuit
+6. Inverse QFT
+7. Precision
+8. Probability distribution
+9. Phase estimation errors
+10. Applications of phase estimation
+11. Connection to quantum simulation
+12. Connection to Shor's algorithm
+
+
+CHAPTER 25 — GROVER SEARCH AND AMPLITUDE AMPLIFICATION
+
+1. Unstructured search
+2. Search problem
+3. Oracle
+4. Phase oracle
+5. Amplitude inversion
+6. Diffusion operator
+7. Grover iteration
+8. Amplitude amplification
+9. Success probability
+10. Optimal number of iterations
+11. Complexity
+12. Generalized amplitude amplification
+13. Applications of amplitude amplification
+
+
+CHAPTER 26 — SHOR'S ALGORITHM
+
+1. Integer factorization
+2. Classical factoring
+3. Modular arithmetic
+4. Modular exponentiation
+5. Period finding
+6. Order finding
+7. Quantum period finding
+8. QFT in Shor's algorithm
+9. Quantum circuit
+10. Continued fractions
+11. Classical post-processing
+12. Complexity
+13. Discrete logarithm problem
+14. Cryptographic implications
+
+
+CHAPTER 27 — ADVANCED QUANTUM ALGORITHMS
+
+1. Quantum walks
+2. Discrete-time quantum walks
+3. Continuous-time quantum walks
+4. Hamiltonian simulation
+5. Product formulas
+6. Trotterization
+7. Suzuki-Trotter methods
+8. Quantum linear systems algorithms
+9. HHL algorithm
+10. Quantum Monte Carlo
+11. Quantum amplitude estimation
+12. Quantum counting
+13. Quantum recommendation algorithms
+14. Advanced amplitude-estimation algorithms
+
+
+CHAPTER 28 — QUANTUM COMPLEXITY THEORY
+
+1. Computational complexity
+2. P
+3. NP
+4. NP-complete problems
+5. BPP
+6. BQP
+7. QMA
+8. QMA-complete problems
+9. PSPACE
+10. Quantum query complexity
+11. Quantum lower bounds
+12. Quantum communication complexity
+13. Quantum verification
+14. Quantum computational models
+15. Relationships between classical and quantum complexity classes
+
+
+CHAPTER 29 — QUANTUM CRYPTOGRAPHY
+
+1. Classical cryptography foundations
+2. Symmetric cryptography
+3. Asymmetric cryptography
+4. RSA
+5. Elliptic-curve cryptography
+6. Hash functions
+7. Quantum cryptography
+8. Quantum key distribution
+9. BB84
+10. B92
+11. E91
+12. Entanglement-based cryptography
+13. Device-independent QKD
+14. Quantum attacks
+15. Security principles
+
+
+CHAPTER 30 — POST-QUANTUM CRYPTOGRAPHY
+
+1. Quantum threat model
+2. Shor's attack
+3. Grover's attack
+4. Post-quantum cryptography
+5. Lattice-based cryptography
+6. Code-based cryptography
+7. Hash-based cryptography
+8. Multivariate cryptography
+9. Isogeny-based approaches
+10. Post-quantum key establishment
+11. Post-quantum digital signatures
+12. Quantum-safe cryptography
+13. Cryptographic migration
+
+
+CHAPTER 31 — QUANTUM ERROR FUNDAMENTALS
+
+1. Why quantum errors occur
+2. Classical error correction
+3. Quantum error correction
+4. Quantum error types
+5. Bit-flip errors
+6. Phase-flip errors
+7. Bit-phase-flip errors
+8. Error detection
+9. Error correction
+10. Syndrome measurement
+11. Ancilla qubits
+12. Error syndromes
+13. Error recovery
+14. Logical vs physical errors
+
+
+CHAPTER 32 — QUANTUM ERROR-CORRECTING CODES
+
+1. Three-qubit bit-flip code
+2. Three-qubit phase-flip code
+3. Shor nine-qubit code
+4. Five-qubit code
+5. Steane code
+6. CSS codes
+7. Stabilizer formalism
+8. Stabilizer states
+9. Stabilizer generators
+10. Logical operators
+11. Syndrome decoding
+12. Degenerate quantum codes
+13. Concatenated codes
+
+
+CHAPTER 33 — SURFACE CODES AND FAULT TOLERANCE
+
+1. Topological quantum error correction
+2. Surface codes
+3. Surface-code lattice
+4. Data qubits
+5. Syndrome qubits
+6. Logical qubits
+7. Logical operators
+8. Error chains
+9. Error thresholds
+10. Threshold theorem
+11. Fault-tolerant quantum computing
+12. Fault-tolerant gates
+13. Magic states
+14. Magic-state distillation
+15. Logical gate implementation
+16. Fault-tolerant architectures
+17. Resource overhead
+
+
+CHAPTER 34 — QUANTUM HARDWARE FUNDAMENTALS
+
+1. Physical qubits
+2. Qubit requirements
+3. Coherence
+4. Fidelity
+5. Gate time
+6. Connectivity
+7. Scalability
+8. Initialization
+9. Control
+10. Readout
+11. Quantum control electronics
+12. Cryogenic systems
+13. Environmental isolation
+14. Hardware noise
+15. Hardware limitations
+
+
+CHAPTER 35 — QUANTUM COMPUTING TECHNOLOGIES
+
+1. Superconducting qubits
+2. Josephson junctions
+3. Transmon qubits
+4. Flux qubits
+5. Microwave control
+6. Trapped-ion quantum computing
+7. Ion traps
+8. Laser cooling
+9. Laser control
+10. Neutral-atom quantum computing
+11. Optical tweezers
+12. Rydberg atoms
+13. Photonic quantum computing
+14. Single photons
+15. Beam splitters
+16. Interferometers
+17. Spin qubits
+18. Quantum dots
+19. Silicon qubits
+20. Topological qubits
+21. Majorana modes
+22. Anyons
+23. Comparison of quantum hardware platforms
+
+
+CHAPTER 36 — QUANTUM PROGRAMMING FUNDAMENTALS
+
+1. Quantum programming concepts
+2. Quantum circuit programming
+3. Quantum registers
+4. Classical registers
+5. Gates in programming
+6. Measurements
+7. Shots
+8. Quantum simulators
+9. State-vector simulation
+10. Circuit execution
+11. Quantum assembly
+12. OpenQASM
+13. Quantum programming models
+14. Hybrid classical-quantum programming
+
+
+CHAPTER 37 — QUANTUM SOFTWARE FRAMEWORKS
+
+1. Qiskit
+2. Qiskit circuit model
+3. Qiskit simulation
+4. Qiskit transpilation
+5. Cirq
+6. PennyLane
+7. Q#
+8. Amazon Braket
+9. PyQuil
+10. TKET
+11. CUDA-Q
+12. Quantum cloud platforms
+13. Quantum hardware access
+14. SDK comparison
+15. Quantum software stack
+
+
+CHAPTER 38 — QUANTUM SIMULATION AND COMPILATION
+
+1. State-vector simulation
+2. Density-matrix simulation
+3. Stabilizer simulation
+4. Tensor-network simulation
+5. Noise simulation
+6. Classical simulation limits
+7. Quantum circuit transpilation
+8. Gate decomposition
+9. Qubit mapping
+10. Qubit routing
+11. Connectivity constraints
+12. Scheduling
+13. Circuit optimization
+14. Hardware-aware compilation
+15. Quantum resource estimation
+
+
+CHAPTER 39 — NISQ COMPUTING
+
+1. NISQ definition
+2. NISQ characteristics
+3. Noise limitations
+4. Coherence limitations
+5. Limited qubit connectivity
+6. Circuit-depth limitations
+7. Error accumulation
+8. Hardware-aware algorithms
+9. Hybrid quantum-classical computation
+10. Near-term quantum algorithms
+11. NISQ-era applications
+12. Limitations of NISQ systems
+
+
+CHAPTER 40 — VARIATIONAL QUANTUM ALGORITHMS
+
+1. Variational principle
+2. Hybrid quantum-classical algorithms
+3. Parameterized quantum circuits
+4. Variational circuits
+5. Ansatz
+6. Ansatz design
+7. Cost functions
+8. Classical optimizers
+9. Gradient-based optimization
+10. Gradient-free optimization
+11. Parameter landscapes
+12. Barren plateaus
+13. Trainability
+14. VQE
+15. QAOA
+16. Variational quantum classifiers
+
+
+CHAPTER 41 — QUANTUM OPTIMIZATION AND ANNEALING
+
+1. Classical optimization
+2. Combinatorial optimization
+3. Constraint optimization
+4. QUBO
+5. Ising formulation
+6. Quantum annealing
+7. Quantum tunneling
+8. Energy landscapes
+9. Adiabatic evolution
+10. Adiabatic quantum computation
+11. QAOA
+12. MaxCut
+13. Scheduling
+14. Routing
+15. Portfolio optimization
+16. Quantum annealing architecture
+17. Minor embedding
+18. Chain strength
+
+
+CHAPTER 42 — QUANTUM MACHINE LEARNING
+
+1. Machine learning foundations
+2. Quantum machine learning
+3. Classical data encoding
+4. Quantum data
+5. Amplitude encoding
+6. Basis encoding
+7. Angle encoding
+8. Feature maps
+9. Quantum kernels
+10. Quantum kernel estimation
+11. Quantum neural networks
+12. Parameterized quantum circuits
+13. Variational quantum classifiers
+14. Quantum support vector machines
+15. Quantum generative models
+16. Quantum GANs
+17. Quantum Boltzmann machines
+18. Quantum reinforcement learning
+19. Quantum-enhanced optimization
+20. QML trainability
+21. QML generalization
+22. Quantum advantage in machine learning
+
+
+CHAPTER 43 — QUANTUM CHEMISTRY
+
+1. Quantum chemistry foundations
+2. Molecular systems
+3. Electronic structure
+4. Molecular orbitals
+5. Hamiltonians
+6. Basis sets
+7. Fermions
+8. Bosons
+9. Second quantization
+10. Creation and annihilation operators
+11. Fermionic operators
+12. Jordan-Wigner transformation
+13. Bravyi-Kitaev transformation
+14. Fermion-to-qubit mapping
+15. Molecular Hamiltonians
+16. VQE for chemistry
+17. Quantum phase estimation for chemistry
+18. Ground-state energy
+19. Excited states
+20. Molecular simulation
+21. Drug discovery applications
+22. Materials applications
+
+
+CHAPTER 44 — QUANTUM COMMUNICATION AND TELEPORTATION
+
+1. Quantum communication
+2. Quantum channels
+3. Quantum teleportation
+4. Bell-state preparation
+5. Teleportation protocol
+6. Classical communication in teleportation
+7. Teleportation fidelity
+8. Superdense coding
+9. Entanglement swapping
+10. Entanglement purification
+11. Quantum repeaters
+12. Quantum memories
+13. Long-distance quantum communication
+14. Quantum networks
+15. Quantum internet
+16. Distributed quantum computing
+
+
+CHAPTER 45 — QUANTUM THERMODYNAMICS AND RESOURCE THEORIES
+
+1. Quantum thermodynamics
+2. Quantum states and energy
+3. Quantum work
+4. Quantum heat
+5. Quantum heat engines
+6. Quantum refrigerators
+7. Maxwell's demon
+8. Information and thermodynamics
+9. Quantum resource theories
+10. Entanglement as a resource
+11. Coherence as a resource
+12. Magic as a resource
+13. Resource states
+14. Resource conversion
+15. Resource monotones
+
+
+CHAPTER 46 — QUANTUM CONTROL, TOMOGRAPHY AND BENCHMARKING
+
+1. Quantum control
+2. Pulse-level control
+3. Pulse shaping
+4. Optimal control
+5. Qubit calibration
+6. Gate calibration
+7. Readout calibration
+8. Dynamical decoupling
+9. Quantum state tomography
+10. Quantum process tomography
+11. Measurement tomography
+12. Quantum state reconstruction
+13. Randomized benchmarking
+14. Cross-entropy benchmarking
+15. Quantum volume
+16. Gate fidelity
+17. Process fidelity
+18. Error characterization
+
+
+CHAPTER 47 — QUANTUM METROLOGY AND SENSING
+
+1. Quantum metrology
+2. Quantum-enhanced measurement
+3. Standard quantum limit
+4. Heisenberg limit
+5. Quantum Fisher information
+6. Quantum Cramér-Rao bound
+7. Quantum sensing
+8. Quantum sensors
+9. Quantum magnetometry
+10. Quantum gravimetry
+11. Atomic clocks
+12. Quantum imaging
+13. Quantum navigation
+14. Precision measurement
+15. Medical sensing applications
+
+
+CHAPTER 48 — ADVANCED QUANTUM INFORMATION AND ENTANGLEMENT THEORY
+
+1. Advanced quantum channels
+2. Completely positive maps
+3. Trace-preserving maps
+4. Channel capacity
+5. Quantum channel discrimination
+6. Entanglement measures
+7. Entanglement of formation
+8. Entanglement distillation
+9. Entanglement witnesses
+10. Multipartite entanglement
+11. Quantum correlations
+12. Quantum discord
+13. Quantum coherence
+14. Quantum resource theories
+15. Advanced entropy inequalities
+16. Quantum data processing inequality
+
+
+CHAPTER 49 — QUANTUM FOUNDATIONS AND ADVANCED PHYSICS
+
+1. Foundations of quantum mechanics
+2. Measurement problem
+3. Copenhagen interpretation
+4. Many-worlds interpretation
+5. Pilot-wave theory
+6. Decoherence
+7. Quantum contextuality
+8. Bell's theorem
+9. Quantum nonlocality
+10. Local realism
+11. Quantum information interpretations
+12. Quantum fields
+13. Quantum field theory connections
+14. Lattice quantum systems
+15. Many-body quantum systems
+16. Quantum phase transitions
+17. Condensed-matter connections
+18. Quantum information in field theory
+19. Black-hole information
+20. Hawking radiation
+21. Black-hole information paradox
+22. Holographic principle
+23. Quantum information and spacetime
+
+
+CHAPTER 50 — ADVANCED QUANTUM COMPUTING AND FUTURE DIRECTIONS
+
+1. Quantum advantage
+2. Quantum computational advantage
+3. Random circuit sampling
+4. Quantum sampling problems
+5. Classical simulation barriers
+6. Scalable quantum computing
+7. Fault-tolerant quantum computing
+8. Logical-qubit architectures
+9. Large-scale quantum computers
+10. Quantum internet
+11. Distributed quantum computing
+12. Quantum cloud computing
+13. Quantum-AI integration
+14. Quantum simulation
+15. Quantum chemistry
+16. Quantum sensing
+17. Quantum communication
+18. Quantum cryptography
+19. Quantum machine learning
+20. Quantum optimization
+21. Emerging quantum architectures
+22. Open problems in quantum computing
+23. Future directions of quantum computing
